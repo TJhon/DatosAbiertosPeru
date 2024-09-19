@@ -1,0 +1,98 @@
+{
+  "help": "Return the metadata of a dataset (package) and its resources. :param id: the id or name of the dataset :type id: string",
+  "success": true,
+  "result": [
+    {
+      "id": "1cb938b1-f9ec-4a36-88e7-4a7333e7f134",
+      "name": "vigilancia-y-seguimiento-ambiental-en-la-calidad-del-aire-organismo-de-evaluación-y",
+      "title": "Vigilancia y Seguimiento ambiental en la calidad del aire - Organismo de Evaluación y Fiscalización Ambiental - OEFA",
+      "author": "Organismo de Evaluación y Fiscalización Ambiental – OEFA",
+      "author_email": "emanco@oefa.gob.pe",
+      "maintainer": "Plataforma Nacional de Datos Abiertos ",
+      "maintainer_email": "scastro@pcm.gob.pe",
+      "license_title": "http://opendefinition.org/licenses/odc-by/",
+      "notes": "\u003Cp paraeid=\"{cdb9b63d-3461-4ea2-a0fa-ad5a6356910e}{170}\" paraid=\"1096977230\"\u003EEste \u003Cem\u003Edataset \u003C/em\u003Eincluye datos de las evaluaciones ambientales de seguimiento (EAS) sobre la calidad del aire capturados por 34 estaciones de monitoreo en tiempo real en diversas áreas de Perú.&nbsp;&nbsp;\u003C/p\u003E\n\n\u003Cp paraeid=\"{cdb9b63d-3461-4ea2-a0fa-ad5a6356910e}{186}\" paraid=\"1919936125\"\u003EEl registro contiene información sobre la ubicación de las estaciones, la fecha y hora de las mediciones, y parámetros meteorológicos y de calidad del aire.&nbsp;\u003C/p\u003E\n",
+      "url": "https://expresateperu.datosabiertos.gob.pe/dataset/vigilancia-y-seguimiento-ambiental-en-la-calidad-del-aire-organismo-de-evaluaci%C3%B3n-y",
+      "state": "Active",
+      "private": true,
+      "revision_timestamp": "Lun, 08/05/2024 - 12:47",
+      "metadata_created": "Mar, 04/30/2024 - 05:10",
+      "metadata_modified": "Lun, 08/05/2024 - 12:47",
+      "creator_user_id": "b9a338b9-4d89-482a-a9e0-85b6acab2535",
+      "type": "Dataset",
+      "resources": [
+        {
+          "id": "61ecaa36-6319-4e75-8a8c-bcf13343e5a9",
+          "revision_id": "",
+          "url": "https://expresateperu.datosabiertos.gob.pe/sites/default/files/1a_Vigilancia%20y%20Seguimiento%20ambiental%20en%20la%20calidad%20del%20aire.csv",
+          "description": "\u003Cp\u003EEste conjunto de datos recopila información sobre las Evaluaciones Ambientales de Seguimiento (EAS), las cuales son capturadas, sistematizadas, validadas y visualizadas por la Dirección de Evaluación Ambiental (DEAM). Actualmente los datos provienen de 34 estaciones de monitoreo de calidad del aire en tiempo real, estratégicamente ubicadas, representando una valiosa fuente para el seguimiento y la evaluación de la calidad del aire en diversas áreas geográficas del Perú. Esto permite la identificación de tendencias y la evaluación del cumplimiento de los estándares ambientales.\u003C/p\u003E\n\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\n\u003Cp\u003ECada registro en el conjunto de datos representa un monitoreo continuo de cada estación de calidad del aire e incluye diversos atributos como el nombre de la estación, la fecha y hora de la medición, información de parámetros meteorológicos (presión barométrica, precipitación, temperatura, humedad relativa, velocidad y dirección del viento, radiación solar), material particulado y gases.\u003C/p\u003E\n\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\n\u003Cp\u003EEste dataset está caracterizado por:\u003C/p\u003E\n\n\u003Cul\u003E\n\t\u003Cli\u003EDatos de ubicación geográfica: Este, Norte, Altitud, Zona, Datum Departamento, Provincia, Distrito, Ubigeo.\u003C/li\u003E\n\t\u003Cli\u003EDatos de la evaluación ambiental: Identificador del informe, Procedencia de la muestra, Nombre del punto.\u003C/li\u003E\n\t\u003Cli\u003EDatos de los parámetros evaluados: Parámetro, Fecha, Valor, Periodo.\u003C/li\u003E\n\u003C/ul\u003E\n",
+          "format": "csv",
+          "state": "Active",
+          "revision_timestamp": "Lun, 08/05/2024 - 12:47",
+          "name": "[Dataset-Oefa]-Vigilancia y Seguimiento ambiental en la calidad del aire - [Organismo de Evaluación y Fiscalización Ambiental - OEFA]",
+          "mimetype": "text/csv",
+          "size": "1.23 GB",
+          "created": "Mar, 04/30/2024 - 05:18",
+          "resource_group_id": "fa7537d5-3c60-4ebc-a963-9c7fca839550",
+          "last_modified": "Date changed  Lun, 08/05/2024 - 12:47"
+        },
+        {
+          "id": "cda6e809-36a3-44a2-ae92-c475589ecf97",
+          "revision_id": "",
+          "url": "https://expresateperu.datosabiertos.gob.pe/sites/default/files/1c_Formato_DiccionarioDatos_Vigilancia%20y%20Seguimiento%20ambiental%20en%20la%20calidad%20del%20aire.xlsx",
+          "description": "\u003Cp\u003EEste conjunto de datos recopila información sobre las Evaluaciones Ambientales de Seguimiento (EAS), las cuales son capturadas, sistematizadas, validadas y visualizadas por la Dirección de Evaluación Ambiental (DEAM). Actualmente los datos provienen de 34 estaciones de monitoreo de calidad del aire en tiempo real, estratégicamente ubicadas, representando una valiosa fuente para el seguimiento y la evaluación de la calidad del aire en diversas áreas geográficas del Perú. Esto permite la identificación de tendencias y la evaluación del cumplimiento de los estándares ambientales.\u003C/p\u003E\n\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\n\u003Cp\u003ECada registro en el conjunto de datos representa un monitoreo continuo de cada estación de calidad del aire e incluye diversos atributos como el nombre de la estación, la fecha y hora de la medición, información de parámetros meteorológicos (presión barométrica, precipitación, temperatura, humedad relativa, velocidad y dirección del viento, radiación solar), material particulado y gases.\u003C/p\u003E\n\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\n\u003Cp\u003EEste dataset está caracterizado por:\u003C/p\u003E\n\n\u003Cul\u003E\n\t\u003Cli\u003EDatos de ubicación geográfica: Este, Norte, Altitud, Zona, Datum Departamento, Provincia, Distrito, Ubigeo.\u003C/li\u003E\n\t\u003Cli\u003EDatos de la evaluación ambiental: Identificador del informe, Procedencia de la muestra, Nombre del punto.\u003C/li\u003E\n\t\u003Cli\u003EDatos de los parámetros evaluados: Parámetro, Fecha, Valor, Periodo.\u003C/li\u003E\n\u003C/ul\u003E\n",
+          "format": ".xlsx",
+          "state": "Active",
+          "revision_timestamp": "Lun, 08/05/2024 - 12:47",
+          "name": "[DiccionarioDeDatos-Oefa]-Vigilancia y Seguimiento ambiental en la calidad del aire - [Organismo de Evaluación y Fiscalización Ambiental - OEFA]",
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "size": "53.24 KB",
+          "created": "Mar, 04/30/2024 - 06:22",
+          "resource_group_id": "fa7537d5-3c60-4ebc-a963-9c7fca839550",
+          "last_modified": "Date changed  Lun, 08/05/2024 - 12:47"
+        },
+        {
+          "id": "34e8c580-dc55-46ea-98cd-7744a5fa1d34",
+          "revision_id": "",
+          "url": "https://expresateperu.datosabiertos.gob.pe/sites/default/files/1b_Formato_Metadatos_Vigilancia%20y%20Seguimiento%20ambiental%20en%20la%20calidad%20del%20aire.docx",
+          "description": "\u003Cp\u003EEste conjunto de datos recopila información sobre las Evaluaciones Ambientales de Seguimiento (EAS), las cuales son capturadas, sistematizadas, validadas y visualizadas por la Dirección de Evaluación Ambiental (DEAM). Actualmente los datos provienen de 34 estaciones de monitoreo de calidad del aire en tiempo real, estratégicamente ubicadas, representando una valiosa fuente para el seguimiento y la evaluación de la calidad del aire en diversas áreas geográficas del Perú. Esto permite la identificación de tendencias y la evaluación del cumplimiento de los estándares ambientales.\u003C/p\u003E\n\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\n\u003Cp\u003ECada registro en el conjunto de datos representa un monitoreo continuo de cada estación de calidad del aire e incluye diversos atributos como el nombre de la estación, la fecha y hora de la medición, información de parámetros meteorológicos (presión barométrica, precipitación, temperatura, humedad relativa, velocidad y dirección del viento, radiación solar), material particulado y gases.\u003C/p\u003E\n\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\n\u003Cp\u003EEste dataset está caracterizado por:\u003C/p\u003E\n\n\u003Cul\u003E\n\t\u003Cli\u003EDatos de ubicación geográfica: Este, Norte, Altitud, Zona, Datum Departamento, Provincia, Distrito, Ubigeo.\u003C/li\u003E\n\t\u003Cli\u003EDatos de la evaluación ambiental: Identificador del informe, Procedencia de la muestra, Nombre del punto.\u003C/li\u003E\n\t\u003Cli\u003EDatos de los parámetros evaluados: Parámetro, Fecha, Valor, Periodo.\u003C/li\u003E\n\u003C/ul\u003E\n",
+          "format": "docx",
+          "state": "Active",
+          "revision_timestamp": "Lun, 08/05/2024 - 12:47",
+          "name": "[Metadatos-Oefa]-Vigilancia y Seguimiento ambiental en la calidad del aire - [Organismo de Evaluación y Fiscalización Ambiental - OEFA]",
+          "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "size": "15.65 KB",
+          "created": "Mar, 04/30/2024 - 06:30",
+          "resource_group_id": "fa7537d5-3c60-4ebc-a963-9c7fca839550",
+          "last_modified": "Date changed  Lun, 08/05/2024 - 12:47"
+        }
+      ],
+      "tags": [
+        {
+          "id": "9259a0f5-160f-43e9-b32c-d9afcb3524ba",
+          "vocabulary_id": "2",
+          "name": "Calidad de aire"
+        },
+        {
+          "id": "0e6c4456-49f6-48a5-bc34-fefff09396e1",
+          "vocabulary_id": "2",
+          "name": "Evaluación Ambiental"
+        },
+        {
+          "id": "46019689-84bd-47fd-b750-b87aa51da71b",
+          "vocabulary_id": "2",
+          "name": "Seguimiento"
+        }
+      ],
+      "groups": [
+        {
+          "description": "",
+          "id": "fa7537d5-3c60-4ebc-a963-9c7fca839550",
+          "image_display_url": "https://expresateperu.datosabiertos.gob.pe/sites/default/files/group.png",
+          "title": "Organismo de Evaluación y Fiscalización Ambiental - OEFA",
+          "name": "group/organismo-de-evaluación-y-fiscalización-ambiental-oefa"
+        }
+      ]
+    }
+  ]
+}
